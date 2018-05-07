@@ -8,4 +8,4 @@ The root size is `40px`, set root size `ctrl + :`.
 
 ## Using
 
-When the cursor is on the value and px, press \` key (Above `TAB` key).
+When the cursor is on the value and px, press \` key (which above `TAB` key).
