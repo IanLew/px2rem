@@ -1,0 +1,15 @@
+{
+	"name": "px2rem",
+	"title": "px to rem",
+	"description": "px2rem support to Brackets, convert px to rem.",
+	"homepage": "https://github.com/IanLew/px2rem",
+	"version": "1.0.0",
+	"author": "Ian Lew",
+	"keywords": [
+		"convert", "px to rem"
+	],
+	"license": "MIT",
+	"engines": {
+		"brackets": ">=1.7"
+	}
+}
