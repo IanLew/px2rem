@@ -1,9 +1,9 @@
 {
 	"name": "px2rem",
-	"title": "px to rem, rem to px",
+	"title": "px2rem",
 	"description": "px2rem support to Brackets, convert px to rem / rem to px.",
 	"homepage": "https://github.com/IanLew/px2rem",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"author": "Ian Lew",
 	"keywords": [
 		"convert",
