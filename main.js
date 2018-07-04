@@ -14,20 +14,20 @@ define(function(require, exports, module) {
     var Settings = require("settings"),
         Convert = require("convert");
 
-    var convertKeyId = "me.convert.bind";
+    var convertKeyId = "me.convert.pxrem";
 
     AppInit.appReady(function() {
         var editMenu = Menus.getMenu(Menus.AppMenuBar.EDIT_MENU);
-        var cmdSettings = CommandManager.register("px2rem settings", "me.convert.rem", function() {
+        var cmdSettings = CommandManager.register("px2rem settings", "me.convert.setting", function() {
             Settings.showSettingsDialog();
         });
         editMenu.addMenuDivider();
-        editMenu.addMenuItem('me.convert.rem', 'Ctrl-:')
+        editMenu.addMenuItem('me.convert.setting', 'Ctrl-:')
 
 
         CommandManager.register("conversion", convertKeyId, function() {
             Convert.pxrem(Settings.getSettings('value'));
         });
-        KeyBindingManager.addBinding(convertKeyId, "Shift-Tab");
+        KeyBindingManager.addBinding(convertKeyId, "shift-tab");
     });
 });
