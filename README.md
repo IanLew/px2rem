@@ -25,7 +25,7 @@ That's my keymap.json:
 ```json
 {
     "overrides": {
-		"`": "me.convert.pxrem"
+	"`": "me.convert.pxrem"
     }
 }
 ```
